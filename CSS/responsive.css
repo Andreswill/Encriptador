@@ -1,0 +1,48 @@
+@media screen and (max-width: 1130px) {
+    nav button{
+        font-size: 75%;
+    }
+}
+@media screen and (max-width: 980px) {
+    nav button{
+        font-size: 70%;   
+    }
+    .contenedor{
+        width: 80%;
+    }
+} 
+@media screen and (max-width: 600px) {
+    .main #btn-limpiar{
+        width: 19%;
+        font-size: 75%;
+    }
+    .main input::placeholder {
+        font-size: 75%;
+      }
+} 
+@media screen and (max-width: 565px) {
+    nav button{
+        padding: 5px;
+        width: 27%;
+        font-size: 65%;
+    }
+    .contenedor{
+        width: 90%;
+    }
+} 
+@media screen and (max-width: 435px) {
+    nav button{
+        padding: 7px;
+        width: 30%;
+        font-size: 60%;
+    }
+    footer{
+        font-size: 12px;
+    }
+} 
+@media screen and (max-width: 350px) {
+    nav button{
+        width: 35%;
+        font-size: 55%;
+    }
+} 

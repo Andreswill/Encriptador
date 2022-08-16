@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagenes/favicon.encriptacion.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Silkscreen&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header class="cabecera">
+            <img src="Imagenes/logo.png" alt="logo">
+            <h1>ENCRIPTADOR</h1>
+        </header>
+        <main class="main">
+            <label>&#x26a0Solo letras minúsculas y sin acentos</label>
+            <input id="entrada" type="text" placeholder="Ingresa el texto aquí">
+            <button id="btn-limpiar">Limpiar</button>
+
+            <div class="caja">
+                <div class="caja-mostrar">
+                    <textarea id="input-value"></textarea>
+                    <div id="mensaje-img">
+                        <img src="Imagenes/Muñeco.png" alt="imagen">
+                        ¡Ohh Vaya! Ningún mensaje fue encontrado
+                    </div>
+                </div>
+            </div>
+
+
+            <nav>
+                <button id="btn-copiar">Copiar</button>
+                <button id="btn-encriptar">Encriptar</button>
+                <button id="btn-desencriptar">Desencriptar</button>
+            </nav>
+
+        </main>
+
+    </div>
+
+    <footer>
+        &copy; Hecho con &#128155; por Andrés Pacheco - 2022
+        <ul>
+            <li><a href="https://github.com/Andreswill"><img src="Imagenes/github.png" alt="github"></a></li>
+            <li><a href="https://www.linkedin.com/in/wilmer-andr%C3%A9s-pacheco-abaunza-989958244"><img
+                        src="Imagenes/linkedin.png" alt="linkedin"></a></li>
+            <li><a href="https://youtube.com/channel/UCOuZM0_sg2_Q5CI9PuN12Sg"><img src="Imagenes/youtube.png"
+                        alt="youtube"></a></li>
+            <li><a href="https://mobile.twitter.com/Andreswill27?s=09"><img src="Imagenes/twitter.png"
+                        alt="twitter"></a></li>
+            <li><a href="https://www.instagram.com/andreswill27?r=nametag"><img src="Imagenes/instagram.png"
+                        alt="instagram"></a></li>
+        </ul>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
