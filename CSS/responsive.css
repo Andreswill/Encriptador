@@ -27,7 +27,7 @@
         font-size: 65%;
     }
     .contenedor{
-        width: 90%;
+        width: 100%;
     }
 } 
 @media screen and (max-width: 435px) {
@@ -37,6 +37,7 @@
         font-size: 60%;
     }
     footer{
+        width: 90%;
         font-size: 12px;
     }
 } 

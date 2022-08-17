@@ -27,6 +27,9 @@ function quitarMensaje(){
   document.getElementById("mensaje-img").style.display = 'none';
   document.getElementById("input-value").style.display = 'block';
 }
+function quitarTextArea(){
+  document.getElementById('input-value').style.display = 'none';
+}
 
 function alertaError(){
   swal("", "Solo se permiten letras minúsculas, sin acentos", "error");
